@@ -23,16 +23,16 @@ mencantumkan gambar.
 15. Candi Banyunibo – Sleman, Yogyakarta
 
 # Pembagian
-1-5 Ari Andi Mustofa
-6-10 Nanda Putri Febri Antono
-11-15 Uswatun Chasanah
+1. 1-5 Ari Andi Mustofa
+2. 6-10 Nanda Putri Febri Antono
+3. 11-15 Uswatun Chasanah
 
 # Timeline
--minggu ini rekaman dan HTML
--minggu kedua Javascript dan CSS
--minggu ketiga perbaikan dan Finishing.
+1. minggu pertama rekaman dan HTML
+2. minggu kedua Javascript dan CSS
+3. minggu ketiga perbaikan dan Finishing.
 
 # Anggota Kelompok
--Ari Andi Mustofa
--Nanda putri Febri Antono
--Uswatun Chasanah
+1. Ari Andi Mustofa
+2. Nanda putri Febri Antono
+3. Uswatun Chasanah
