@@ -89,8 +89,28 @@ body{
 }
 
 div.p{
-  font-family: cursive;
+  font-family: monospace;
   font-size: 15px;
   text-align: justify;
   padding: 100px;
+}
+
+div.header:hover{
+   background-color: chartreuse;
+}
+
+div h2{
+   width: 100%;
+   height: auto;
+   position:static;
+   animation-name: example;
+   animation-duration: 4s;
+   animation-iteration-count:infinite;
+}
+
+div.container2{
+   background-color: springgreen;
+   text-align: center;
+   margin-left: auto;
+   margin-right: auto;
 }
