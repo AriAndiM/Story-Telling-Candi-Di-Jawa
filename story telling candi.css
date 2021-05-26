@@ -2,3 +2,95 @@
 	margin: 0;
 	padding: 0;
 }
+
+div.card {
+  width: 250px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  float: left;
+  margin: 5px;
+}
+
+div.header {
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  font-size: 40px;
+  padding-top: 20px;
+}
+
+div.header img{
+  width: 200px;
+  height: 200px;
+}
+
+div.container {
+  padding: 10px;
+  font-family: cursive;
+  font-size: 20px;
+}
+
+body{
+    margin: 0;
+    text-align: center;
+}
+
+.slide{
+  max-width: auto;
+  height: 600px;
+}
+
+.slide1 img,.slide2 img,.slide3 img{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.slide1 img{
+  height: 400px;
+  width: 600px;
+  animation: fade 12s infinite;
+  -webkit-animation: fade 12s infinite;
+}
+
+.slide2 img{
+  height: 400px;
+  width: 600px;
+  animation: fade2 12s infinite;
+  -webkit-animation: fade2 12s infinite;
+}
+
+.slide3 img{
+  height: 400px;
+  width: 600px;
+  animation: fade3 12s infinite;
+  -webkit-animation: fade3 12s infinite;
+}
+    
+@keyframes fade {
+  0%{opacity: 1}
+  33.333%{opacity: 0}
+  66.666%{opacity: 0}
+  100%{opacity: 1}
+}
+
+@keyframes fade2 {
+  0%{opacity: 0}
+  33.333%{opacity: 1}
+  66.666%{opacity: 0}
+  100%{opacity: 0}
+}
+
+@keyframes fade3 {
+  0%{opacity: 0}
+  33.333%{opacity: 0}
+  66.666%{opacity: 1}
+  100%{opacity: 0}
+}
+
+div.p{
+  font-family: cursive;
+  font-size: 15px;
+  text-align: justify;
+  padding: 100px;
+}
