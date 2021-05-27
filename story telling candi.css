@@ -1,6 +1,6 @@
 *{
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 div.card {
@@ -113,4 +113,11 @@ div.container2{
    text-align: center;
    margin-left: auto;
    margin-right: auto;
+}
+
+div.slide{
+   display: flex;
+   align-self:flex-start;
+   margin-right:300px;
+   margin-left:340px;
 }
