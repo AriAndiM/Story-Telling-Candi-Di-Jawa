@@ -4,11 +4,21 @@
     document.getElementById("gedong songo").style.display="none";
     document.getElementById("sukuh").style.display="none";
     document.getElementById("cetho").style.display="none";
+    document.getElementById("jabug").style.display = 'none';
+    document.getElementById("plaosan").style.display = 'none';
+    document.getElementById("sewu").style.display = 'none';
+    document.getElementById("brahu").style.display = 'none';
+    document.getElementById("banyunibo").style.display = 'none';
     document.getElementById("candi prambanan").style.display="block";
     document.getElementById("candi dieng").style.display="none";
     document.getElementById("candi gedong songo").style.display="none";
     document.getElementById("candi sukuh").style.display="none";
     document.getElementById("candi cetho").style.display="none";
+    document.getElementById("candi jabug").style.display = 'none';
+    document.getElementById("candi plaosan").style.display = 'none';
+    document.getElementById("candi sewu").style.display = 'none';
+    document.getElementById("candi brahu").style.display = 'none';
+    document.getElementById("candi banyunibo").style.display = 'none';
   }
 
   function dieng(){
