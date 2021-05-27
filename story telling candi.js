@@ -1,3 +1,68 @@
+  function prambanan(){
+    document.getElementById("prambanan").style.display="none";
+    document.getElementById("dieng").style.display="none";
+    document.getElementById("gedong songo").style.display="none";
+    document.getElementById("sukuh").style.display="none";
+    document.getElementById("cetho").style.display="none";
+    document.getElementById("candi prambanan").style.display="block";
+    document.getElementById("candi dieng").style.display="none";
+    document.getElementById("candi gedong songo").style.display="none";
+    document.getElementById("candi sukuh").style.display="none";
+    document.getElementById("candi cetho").style.display="none";
+  }
+
+  function dieng(){
+    document.getElementById("prambanan").style.display="none";
+    document.getElementById("dieng").style.display="none";
+    document.getElementById("gedong songo").style.display="none";
+    document.getElementById("sukuh").style.display="none";
+    document.getElementById("cetho").style.display="none";
+    document.getElementById("candi prambanan").style.display="none";
+    document.getElementById("candi dieng").style.display="block";
+    document.getElementById("candi gedong songo").style.display="none";
+    document.getElementById("candi sukuh").style.display="none";
+    document.getElementById("candi cetho").style.display="none";
+  }
+
+  function gedongsongo(){
+    document.getElementById("prambanan").style.display="none";
+    document.getElementById("dieng").style.display="none";
+    document.getElementById("gedong songo").style.display="none";
+    document.getElementById("sukuh").style.display="none";
+    document.getElementById("cetho").style.display="none";
+    document.getElementById("candi prambanan").style.display="none";
+    document.getElementById("candi dieng").style.display="none";
+    document.getElementById("candi gedong songo").style.display="block";
+    document.getElementById("candi sukuh").style.display="none";
+    document.getElementById("candi cetho").style.display="none";
+  }
+
+  function sukuh(){
+    document.getElementById("prambanan").style.display="none";
+    document.getElementById("dieng").style.display="none";
+    document.getElementById("gedong songo").style.display="none";
+    document.getElementById("sukuh").style.display="none";
+    document.getElementById("cetho").style.display="none";
+    document.getElementById("candi prambanan").style.display="none";
+    document.getElementById("candi dieng").style.display="none";
+    document.getElementById("candi gedong songo").style.display="none";
+    document.getElementById("candi sukuh").style.display="block";
+    document.getElementById("candi cetho").style.display="none";
+  }
+
+  function cetho(){
+    document.getElementById("prambanan").style.display="none";
+    document.getElementById("dieng").style.display="none";
+    document.getElementById("gedong songo").style.display="none";
+    document.getElementById("sukuh").style.display="none";
+    document.getElementById("cetho").style.display="none";
+    document.getElementById("candi prambanan").style.display="none";
+    document.getElementById("candi dieng").style.display="none";
+    document.getElementById("candi gedong songo").style.display="none";
+    document.getElementById("candi sukuh").style.display="none";
+    document.getElementById("candi cetho").style.display="block";
+  }
+
 function jabug(){
 		document.getElementById("jabug").style.display = 'none';
 		document.getElementById("plaosan").style.display = 'none';
