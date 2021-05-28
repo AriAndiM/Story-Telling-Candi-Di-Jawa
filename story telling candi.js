@@ -47,7 +47,7 @@
     	document.getElementById("kalasan").style.display="none";
     	document.getElementById("mendut").style.display="none";
     	document.getElementById("pawon").style.display="none";
-    	document.getElementById("candi penataran").style.display="block";
+    	document.getElementById("candi penataran").style.display="none";
     	document.getElementById("candi borobudur").style.display="none";
     	document.getElementById("candi kalasan").style.display="none";
     	document.getElementById("candi mendut").style.display="none";
@@ -349,12 +349,12 @@
     	document.getElementById("candi kalasan").style.display="none";
     	document.getElementById("candi mendut").style.display="none";
     	document.getElementById("candi pawon").style.display="none";
-    	document.getElementById("jabug").style.display = 'jabug';
+    	document.getElementById("jabug").style.display = 'none';
 	document.getElementById("plaosan").style.display = 'none';
 	document.getElementById("sewu").style.display = 'none';
 	document.getElementById("brahu").style.display = 'none';
 	document.getElementById("banyunibo").style.display = 'none';
-	document.getElementById("candi jabug").style.display = 'none';
+	document.getElementById("candi jabug").style.display = 'block';
 	document.getElementById("candi plaosan").style.display = 'none';
 	document.getElementById("candi sewu").style.display = 'none';
 	document.getElementById("candi brahu").style.display = 'none';
@@ -383,12 +383,12 @@
     	document.getElementById("candi mendut").style.display="none";
     	document.getElementById("candi pawon").style.display="none";
     	document.getElementById("jabug").style.display = 'none';
-	document.getElementById("plaosan").style.display = 'plaosan';
+	document.getElementById("plaosan").style.display = 'none';
 	document.getElementById("sewu").style.display = 'none';
 	document.getElementById("brahu").style.display = 'none';
 	document.getElementById("banyunibo").style.display = 'none';
 	document.getElementById("candi jabug").style.display = 'none';
-	document.getElementById("candi plaosan").style.display = 'none';
+	document.getElementById("candi plaosan").style.display = 'block';
 	document.getElementById("candi sewu").style.display = 'none';
 	document.getElementById("candi brahu").style.display = 'none';
 	document.getElementById("candi banyunibo").style.display = 'none';
@@ -417,12 +417,12 @@
     	document.getElementById("candi pawon").style.display="none";
     	document.getElementById("jabug").style.display = 'none';
 	document.getElementById("plaosan").style.display = 'none';
-	document.getElementById("sewu").style.display = 'block';
+	document.getElementById("sewu").style.display = 'none';
 	document.getElementById("brahu").style.display = 'none';
 	document.getElementById("banyunibo").style.display = 'none';
 	document.getElementById("candi jabug").style.display = 'none';
 	document.getElementById("candi plaosan").style.display = 'none';
-	document.getElementById("candi sewu").style.display = 'none';
+	document.getElementById("candi sewu").style.display = 'block';
 	document.getElementById("candi brahu").style.display = 'none';
 	document.getElementById("candi banyunibo").style.display = 'none';
   }
