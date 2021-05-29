@@ -492,3 +492,36 @@
 	document.getElementById("candi brahu").style.display = 'none';
 	document.getElementById("candi banyunibo").style.display = 'block';
   }
+
+  function back(){
+    document.getElementById("prambanan").style.display="block";
+        document.getElementById("dieng").style.display="block";
+        document.getElementById("gedong songo").style.display="block";
+        document.getElementById("sukuh").style.display="block";
+        document.getElementById("cetho").style.display="block";
+        document.getElementById("candi prambanan").style.display="none";
+        document.getElementById("candi dieng").style.display="none";
+        document.getElementById("candi gedong songo").style.display="none";
+        document.getElementById("candi sukuh").style.display="none";
+        document.getElementById("candi cetho").style.display="none";
+    document.getElementById("penataran").style.display="block";
+        document.getElementById("borobudur").style.display="block";
+        document.getElementById("kalasan").style.display="block";
+        document.getElementById("mendut").style.display="block";
+        document.getElementById("pawon").style.display="block";
+        document.getElementById("candi penataran").style.display="none";
+        document.getElementById("candi borobudur").style.display="none";
+        document.getElementById("candi kalasan").style.display="none";
+        document.getElementById("candi mendut").style.display="none";
+        document.getElementById("candi pawon").style.display="none";
+    document.getElementById("jabug").style.display = 'block';
+    document.getElementById("plaosan").style.display = 'block';
+    document.getElementById("sewu").style.display = 'block';
+    document.getElementById("brahu").style.display = 'block';
+    document.getElementById("banyunibo").style.display = 'block';
+    document.getElementById("candi jabug").style.display = 'none';
+    document.getElementById("candi plaosan").style.display = 'none';
+    document.getElementById("candi sewu").style.display = 'none';
+    document.getElementById("candi brahu").style.display = 'none';
+    document.getElementById("candi banyunibo").style.display = 'none';
+}
