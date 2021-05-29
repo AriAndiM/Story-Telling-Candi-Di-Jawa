@@ -12,7 +12,7 @@ div.card {
 }
 
 div.header {
-  background-color: blue;
+  background-color: #EEE8AA;
   color: white;
   padding: 10px;
   font-size: 40px;
@@ -96,7 +96,7 @@ div.p{
 }
 
 div.header:hover{
-   background-color: chartreuse;
+   background-color: #DEB887;
 }
 
 div h2{
@@ -109,10 +109,18 @@ div h2{
 }
 
 div.container2{
-   background-color: springgreen;
+   background-color: #5F9EA0;
    text-align: center;
    margin-left: auto;
    margin-right: auto;
+}
+
+div.container2 button{
+  background-color: #E9967A;
+  font-family: cursive;
+  font-size: 20px;
+  border-radius: 20px;
+  padding: 10px;
 }
 
 div.slide{
@@ -121,3 +129,18 @@ div.slide{
    margin-right:300px;
    margin-left:340px;
 }
+
+.glow {
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  animation: glow 5s ease-in-out infinite alternate;
+}
+@-webkit-keyframes glow{
+  from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px 3, 0 0 40px #dfb11c, 0 0 50px #f7e707, 0 0 60px #eede05, 0 0 70px #e60073;
+       }
+        
+  to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #5f02f3, 0 0 40px #f57a07, 0 0 50px #f37107, 0 0 60px #d83e0f, 0 0 70px #f08102, 0 0 80px #7c057c;
+      }
