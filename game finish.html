@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>game</title>
+  <style>      
+    body{
+        background-color:#5F9EA0 ;
+        font-family: monospace;
+        text-align: center;
+    }
+    img{
+        width: 600px;
+        height: 400px;
+        text-align: center;
+    }
+    button{
+        background-color: #E9967A;
+        font-family: cursive;
+        font-size: 20px;
+        border-radius: 20px;
+        padding: 10px;
+    }
+    .glow {
+        font-size: 80px;
+        color: #fff;
+        text-align: center;
+        animation: glow 5s ease-in-out infinite alternate;
+    }
+    @-webkit-keyframes glow{
+        from {
+            text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px 3, 0 0 40px #dfb11c, 0 0 50px #f7e707, 0 0 60px #eede05, 0 0 70px #e60073;
+            }
+                
+        to {
+            text-shadow: 0 0 20px #fff, 0 0 30px #85ec0f, 0 0 40px #0fe20f, 0 0 50px #14ec01, 0 0 60px #65ff0c, 0 0 70px #15fc34, 0 0 80px #39a108;
+            }
+        }
+  </style>
+</head>
+<body>  
+<h1 class="glow">GAME TEBAK CANDI</h1>
+<h2>Tebak Ini Candi Apa?</h2>
+  <h1>Jawaban = <input type="text" name="pil" id="Jawaban" style="background-color:#E9967A; font-family: cursive; font-size:20px;"></h1>
+  <button onclick="jawab()">submit</button>
+  <button onclick="lagi()">PLAY AGAIN</button><br><br>
+</body>
+</html>
