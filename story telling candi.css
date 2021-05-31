@@ -3,10 +3,6 @@
   padding: 0;
 }
 
-div.container{
-  margin-left: 40px;
-}
-
 div.card {
   width: 250px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -28,11 +24,16 @@ div.header img{
   height: 200px;
 }
 
-div.container {
-  padding: 10px;
-  font-family: cursive;
-  font-size: 20px;
+.container {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	margin: 1px;
+	flex-wrap:wrap;
+	flex-flow: wrap;
+	justify-content: center;
 }
+
 
 body{
     margin: 0;
@@ -125,13 +126,6 @@ div.container2 button{
   font-size: 20px;
   border-radius: 20px;
   padding: 10px;
-}
-
-div.slide{
-   display: flex;
-   align-self:flex-start;
-   margin-right:300px;
-   margin-left:400px;
 }
 
 .glow {
