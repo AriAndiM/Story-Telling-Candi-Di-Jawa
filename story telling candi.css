@@ -43,6 +43,8 @@ body{
 .slide{
   max-width: auto;
   height: 600px;
+  margin-left: 300px;
+  margin-right: 900px;
 }
 
 .slide1 img,.slide2 img,.slide3 img{
