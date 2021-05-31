@@ -1,4 +1,5 @@
    function prambanan(){
+	document.getElementById("tombol").style.display="none";
   	document.getElementById("prambanan").style.display="none";
     	document.getElementById("dieng").style.display="none";
     	document.getElementById("gedong songo").style.display="none";
@@ -32,6 +33,7 @@
   }
 
   function dieng(){
+	document.getElementById("tombol").style.display="none";
   	document.getElementById("prambanan").style.display="none";
     	document.getElementById("dieng").style.display="none";
     	document.getElementById("gedong songo").style.display="none";
@@ -65,6 +67,7 @@
   }
 
   function gedongsongo(){
+	document.getElementById("tombol").style.display="none";
   	document.getElementById("prambanan").style.display="none";
     	document.getElementById("dieng").style.display="none";
     	document.getElementById("gedong songo").style.display="none";
@@ -98,6 +101,7 @@
   }
 
   function sukuh(){
+	document.getElementById("tombol").style.display="none";
   	document.getElementById("prambanan").style.display="none";
     	document.getElementById("dieng").style.display="none";
     	document.getElementById("gedong songo").style.display="none";
@@ -131,6 +135,7 @@
   }
 
   function cetho(){
+	document.getElementById("tombol").style.display="none";
   	document.getElementById("prambanan").style.display="none";
     	document.getElementById("dieng").style.display="none";
     	document.getElementById("gedong songo").style.display="none";
@@ -164,6 +169,7 @@
   }
 
   function penataran(){
+	document.getElementById("tombol").style.display="none";
   	document.getElementById("prambanan").style.display="none";
     	document.getElementById("dieng").style.display="none";
     	document.getElementById("gedong songo").style.display="none";
@@ -197,6 +203,7 @@
   }
 
   function borobudur(){
+	document.getElementById("tombol").style.display="none";
   	document.getElementById("prambanan").style.display="none";
     	document.getElementById("dieng").style.display="none";
     	document.getElementById("gedong songo").style.display="none";
@@ -230,6 +237,7 @@
   }
 
   function kalasan(){
+	document.getElementById("tombol").style.display="none";
   	document.getElementById("prambanan").style.display="none";
     	document.getElementById("dieng").style.display="none";
     	document.getElementById("gedong songo").style.display="none";
@@ -263,6 +271,7 @@
   }
 
   function mendut(){
+	document.getElementById("tombol").style.display="none";
   	document.getElementById("prambanan").style.display="none";
     	document.getElementById("dieng").style.display="none";
     	document.getElementById("gedong songo").style.display="none";
@@ -296,6 +305,7 @@
   }
 
   function pawon(){
+	document.getElementById("tombol").style.display="none";
   	document.getElementById("prambanan").style.display="none";
     	document.getElementById("dieng").style.display="none";
     	document.getElementById("gedong songo").style.display="none";
@@ -329,6 +339,7 @@
   }
 
   function jabug(){
+	document.getElementById("tombol").style.display="none";
   	document.getElementById("prambanan").style.display="none";
     	document.getElementById("dieng").style.display="none";
     	document.getElementById("gedong songo").style.display="none";
@@ -362,6 +373,7 @@
   }
 
   function plaosan(){
+	document.getElementById("tombol").style.display="none";
   	document.getElementById("prambanan").style.display="none";
     	document.getElementById("dieng").style.display="none";
     	document.getElementById("gedong songo").style.display="none";
@@ -395,6 +407,7 @@
   }
 
   function sewu(){
+	document.getElementById("tombol").style.display="none";
   	document.getElementById("prambanan").style.display="none";
     	document.getElementById("dieng").style.display="none";
     	document.getElementById("gedong songo").style.display="none";
@@ -428,6 +441,7 @@
   }
 
   function brahu(){
+	document.getElementById("tombol").style.display="none";
   	document.getElementById("prambanan").style.display="none";
     	document.getElementById("dieng").style.display="none";
     	document.getElementById("gedong songo").style.display="none";
@@ -461,6 +475,7 @@
   }
 
   function banyunibo(){
+	document.getElementById("tombol").style.display="none";
   	document.getElementById("prambanan").style.display="none";
     	document.getElementById("dieng").style.display="none";
     	document.getElementById("gedong songo").style.display="none";
@@ -494,6 +509,7 @@
   }
 
   function back(){
+	document.getElementById("tombol").style.display="block";
     document.getElementById("prambanan").style.display="block";
         document.getElementById("dieng").style.display="block";
         document.getElementById("gedong songo").style.display="block";
