@@ -38,75 +38,113 @@
             text-shadow: 0 0 20px #fff, 0 0 30px #85ec0f, 0 0 40px #0fe20f, 0 0 50px #14ec01, 0 0 60px #65ff0c, 0 0 70px #15fc34, 0 0 80px #39a108;
             }
         }
+	p{
+    	font-family: cursive;
+    	font-size: 20px;
+    	text-align: center;
+    }
   </style>
 </head>
 <body>  
 <h1 class="glow">GAME TEBAK CANDI</h1>
 <h2>Tebak Ini Candi Apa?</h2>
   <h1>Jawaban <input value="candi" type="text" name="pil" id="Jawaban" style="background-color:#E9967A; font-family: cursive; font-size:20px;border-radius: 20px;"></h1>
-  <button onclick="jawab()">submit</button>
-  <button onclick="lagi()">PLAY AGAIN</button><br><br>
+	<button onclick="jawab()"><b>submit</b></button>
+  <button><a href="index.html" style="text-decoration: none; color: black;"><b>back</b></a></button>
+  <button><a href="game finish.html" style="text-decoration: none;color: black;"><b>play again<b></a></button><br><br>
+<br>
 </body>
   <script type="text/javascript">
 		var comp = Math.random()
 		if (comp < 0.066) {
 			comp = "candi prambanan"
+			document.write("<p>CLUE")
+			document.write("<p>Candi ini memiliki cerita yang sangat melegenda</p>")
 			document.write("<img src= prambanan2.jpg>")
 		}
 		else if (comp >= 0.066 && comp < 0.132) {
 			comp = "candi dieng"
+			document.write("<p>CLUE")
+			document.write("<p>Bangunan candi ini berasal dari kerajaan kalingga</p>")
 			document.write("<img src= dieng1.jpg>")
 		}
 		else if (comp >= 0.132 && comp < 0.198) {
 			comp = "candi gedong songo"
+			document.write("<p>CLUE")
+			document.write("<p>Candi ini berada di lereng gunung ungaran</p>")
 			document.write("<img src= Gedongsongo.jpg>")
 		}
 		else if (comp >= 0.198 && comp < 0.264) {
 			comp = "candi sukuh"
+			document.write("<p>CLUE")
+			document.write("<p>Candi ini berada di karanganyar, jawa tengah</p>")
 			document.write("<img src= sukuh1.jpg>")
 		}
 		else if (comp >= 0.264 && comp < 0.33) {
 			comp = "candi cetho"
+			document.write("<p>CLUE")
+			document.write("<p>Candi ini berada di lereng gunung lawu</p>")
 			document.write("<img src= cetho1.jfif>")
 		}
 		else if (comp >= 0.33 && comp < 0.396) {
 			comp = "candi penataran"
+			document.write("<p>CLUE")
+			document.write("<p>Candi ini memiliki nama asli candi palah</p>")
 			document.write("<img src= penataran1.jpg>")
 		}
 		else if (comp >= 0.396 && comp < 0.462) {
 			comp = "candi borobudur"
+			document.write("<p>CLUE")
+			document.write("<p>Candi ini merupakan candi terbesar di dunia</p>")
 			document.write("<img src= borobudur1.jpeg>")
 		}
 		else if (comp >= 0.462 && comp < 0.528) {
 			comp = "candi kalasan"
+			document.write("<p>CLUE")
+			document.write("<p>Candi ini hanya berjarak 2 km dari candi prambanan</p>")
 			document.write("<img src= kalasan1.jpg>")
 		}
 		else if (comp >= 0.528 && comp < 0.594) {
 			comp = "candi mendut"
+			document.write("<p>CLUE")
+			document.write("<p>Candi ini hanya berjarak 3 km dari candi borobudur</p>")
 			document.write("<img src= mendut1.jpg>")
 		}
 		else if (comp >= 0.594 && comp < 0.66) {
 			comp = "candi pawon"
+			document.write("<p>CLUE")
+			document.write("<p>Candi ini berada di antara candi mendut dan candi borobudur</p>")
+			document.write("<img src= pawon1.jpg>")
 			document.write("<img src= pawon1.jpg>")
 		}
 		else if (comp >= 0.66 && comp < 0.726) {
 			comp = "candi jabug"
+			document.write("<p>CLUE")
+			document.write("<p>Candi ini berada di kabupaten probolinggo</p>")
 			document.write("<img src= jabug1.jpg>")
 		}
 		else if (comp >= 0.726 && comp < 0.792) {
 			comp = "candi plaosan"
+			document.write("<p>CLUE")
+			document.write("<p>Candi ini dibangun pada masa kerajaan medang</p>")
 			document.write("<img src= plaosan1.jpg>")
 		}
 		else if (comp >= 0.792 && comp < 0.858) {
 			comp = "candi sewu"
+			document.write("<p>CLUE")
+			document.write("<p>Candi ini lebih tua daripada candi borobudur dan prambanan</p>")
 			document.write("<img src= sewu1.jpg>")
 		}
 		else if (comp >= 0.858 && comp < 0.924) {
 			comp = "candi brahu"
+			document.write("<p>CLUE")
+			document.write("<p>Candi ini terletak di dalam kawasan situs arkeologi Trowulan</p>")
 			document.write("<img src= brahu1.jpg>")
 		}
 		else{
 			comp = "candi banyunibo"
+			document.write("<p>CLUE")
+			document.write("<p>Candi ini berada tidak jauh dari candi ratu boko</p>")
 			document.write("<img src= banyunibo1.jpg>")
 		}
 		console.log(comp)
