@@ -122,6 +122,16 @@ div.container2{
    margin-right: auto;
 }
 
+div.container2 p{
+  font-family: serif;
+  font-size: 20px;
+  text-align: justify;
+  margin-left: 150px;
+  margin-right: 150px;
+  border-style: outset;
+  padding: 15px;
+}
+
 div.container2 button{
   background-color: #E9967A;
   font-family: cursive;
