@@ -43,6 +43,22 @@
     	font-size: 20px;
     	text-align: center;
     }
+
+    h3{
+    	font-size: 40px;
+        color: #fff;
+        text-align: center;
+        animation: glow 5s ease-in-out infinite alternate;
+    }
+    @-webkit-keyframes h3{
+        from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px 3, 0 0 40px #dfb11c, 0 0 50px #f7e707, 0 0 60px #eede05, 0 0 70px #e60073;
+       }
+        
+  to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #5f02f3, 0 0 40px #f57a07, 0 0 50px #f37107, 0 0 60px #d83e0f, 0 0 70px #f08102, 0 0 80px #7c057c;
+      }
+        }
   </style>
 </head>
 <body>  
@@ -53,7 +69,7 @@
   <button><a href="index.html" style="text-decoration: none; color: black;"><b>back</b></a></button>
   <button><a href="game finish.html" style="text-decoration: none;color: black;"><b>play again<b></a></button>
 <button><a href="akhir.html" style="text-decoration: none; color: black;"><b>finish</b></a></button>	  
-<br><br>
+<div class="result"></div>
 <br>
 </body>
   <script type="text/javascript">
@@ -149,13 +165,17 @@
 			document.write("<img src= banyunibo1.jpg>")
 		}
 		console.log(comp)
+	  
+	  const result = document.querySelector(".result")
 	  function jawab(){
 	    var pil = document.getElementById("Jawaban").value;
 	    if (pil == comp) {
-	      alert("JAWABAN KAMU BENAR :)")
+	      result.innerHTML = "<h3>JAWABAN KAMU BENAR</h3>"
+	    	return
 	    }
 	    else{
-	      alert("JAWABAN KAMU SALAH :(")
+	      result.innerHTML = "<h3>JAWABAN KAMU SALAH</h3>"
+	    	return
 	    }
 	}
   </script>
